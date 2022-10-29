@@ -36,6 +36,7 @@
       <!-- Tree View - START -->
       <div class="container">
         <div class="row">
+          {% if departments %}
           <div class="col-md-4 col-md-offset-4">
             <ul id="treeview">
               {% if departments_first %}
@@ -131,6 +132,9 @@
               {% endif %}
             </ul>
           </div>
+          {% else %}
+          <h3>Пожалуйста, добавьте информацию о сотруднике в <a href="{% url 'admin:index' %}">админ панель</a></h3> 
+          {% endif %}
         </div>
       </div>
 
