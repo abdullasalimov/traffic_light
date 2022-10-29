@@ -40,11 +40,11 @@ Employee and Department
 
         http://localhost:8000
 
-8. To add data on admin panel write below code:
+8. To add data on admin panel create superuser with below code:
 
         docker-compose exec web python manage.py createsuperuser
 
-9. To go to admin panel:
+9. Link to admin page:
 
         http://localhost:8000/admin
 
