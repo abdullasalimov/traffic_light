@@ -34,7 +34,7 @@ Employee and Department
 
 7. Migrate database with below code:
 
-        docker-compose exec web python manage.py migrate --noinp
+        docker-compose exec web python manage.py migrate --noinput
 
 7. If that's successful you can then go to the localhost on you browser to test it:
 
